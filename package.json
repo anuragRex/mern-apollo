@@ -4,11 +4,13 @@
   "main": "index.js",
   "author": "Anurag Shrivastava",
   "license": "MIT",
-  "scripts" : {
-    "watch" : "nodemon"
+  "scripts": {
+    "dev": "NODE_ENV=development APP_PORT=4000 nodemon -r esm"
   },
   "dependencies": {
-    "apollo-server": "^2.8.1",
+    "apollo-server-express": "^2.8.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
     "graphql": "^14.4.2"
   },
   "devDependencies": {
