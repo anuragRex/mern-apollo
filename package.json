@@ -1,7 +1,17 @@
 {
-  "name": "MERN-APOLLO",
+  "name": "mern-apollo",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Anurag Shrivastava",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts" : {
+    "watch" : "nodemon"
+  },
+  "dependencies": {
+    "apollo-server": "^2.8.1",
+    "graphql": "^14.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
